@@ -17,14 +17,6 @@ Dynatraceからホスト情報を収集してCSVファイルにエクスポー�
 pip install requests
 ```
 
-2. Dynatraceの認証情報を含む`config.py`ファイルを作成：
-```python
-TENANT_URL = "https://your-tenant-url"
-API_TOKEN = "your-api-token"
-```
-
-3. 認証情報を公開しないように`config.py`を`.gitignore`に含めてください。
-
 ## 設定
 
 1. `config.py.template` を `config.py` にコピーします：

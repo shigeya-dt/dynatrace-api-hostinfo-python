@@ -17,14 +17,6 @@ A Python script that collects host information from Dynatrace and exports it to 
 pip install requests
 ```
 
-2. Create a `config.py` file with your Dynatrace credentials:
-```python
-TENANT_URL = "https://your-tenant-url"
-API_TOKEN = "your-api-token"
-```
-
-3. Make sure `config.py` is in your `.gitignore` to avoid exposing credentials.
-
 ## Configuration
 
 1. Copy `config.py.template` to `config.py`:
