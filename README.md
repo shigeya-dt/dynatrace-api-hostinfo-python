@@ -47,6 +47,13 @@ The CSV file contains the following columns:
 - CPU Cores
 - Memory (GB)
 
+Example output:
+
+| Hostname    | CPU Cores | Memory (GB) |
+|------------|-----------|-------------|
+| st-linux-01| 4         | 15.5        |
+| st-win-01  | 14        | 31.7        |
+
 ## Adding New Attributes
 
 To add new attributes to the CSV output, follow these steps:
