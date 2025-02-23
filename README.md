@@ -12,7 +12,7 @@ A Python script that collects host information from Dynatrace and exports it to 
 
 ## Setup
 
-1. Install required packages:
+Install required packages:
 ```bash
 pip install requests
 ```
