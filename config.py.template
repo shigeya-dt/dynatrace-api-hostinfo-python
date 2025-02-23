@@ -1,0 +1,3 @@
+# Dynatrace API Configuration
+DYNATRACE_API_URL = "https://your-environment.live.dynatrace.com"
+DYNATRACE_API_TOKEN = "your-api-token"

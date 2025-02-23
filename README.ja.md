@@ -25,6 +25,17 @@ API_TOKEN = "your-api-token"
 
 3. 認証情報を公開しないように`config.py`を`.gitignore`に含めてください。
 
+## 設定
+
+1. `config.py.template` を `config.py` にコピーします：
+   ```bash
+   cp config.py.template config.py
+   ```
+
+2. `config.py` を編集して、Dynatraceの環境設定を行います：
+   - `DYNATRACE_API_URL`: Dynatraceの環境URL
+   - `DYNATRACE_API_TOKEN`: DynatraceのAPIトークン
+
 ## 使用方法
 
 スクリプトの実行：

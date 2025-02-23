@@ -1,4 +1,3 @@
-
 # Dynatrace Host Information Collector
 
 A Python script that collects host information from Dynatrace and exports it to a CSV file. Currently, it collects hostname, CPU cores, and total memory for each host.
@@ -25,6 +24,17 @@ API_TOKEN = "your-api-token"
 ```
 
 3. Make sure `config.py` is in your `.gitignore` to avoid exposing credentials.
+
+## Configuration
+
+1. Copy `config.py.template` to `config.py`:
+   ```bash
+   cp config.py.template config.py
+   ```
+
+2. Edit `config.py` and set your Dynatrace environment details:
+   - `DYNATRACE_API_URL`: Your Dynatrace environment URL
+   - `DYNATRACE_API_TOKEN`: Your Dynatrace API token
 
 ## Usage
 
