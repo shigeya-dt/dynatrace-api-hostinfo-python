@@ -3,3 +3,5 @@ config.py
 
 # Generated CSV files
 *.csv 
+
+**/__pycache__/**
